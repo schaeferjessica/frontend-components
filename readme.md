@@ -1,8 +1,8 @@
-## GitHub Pages
+#### GitHub Pages
 
 [frontend-components](https://schaeferjessica.github.io/frontend-components/)
 
-## Upload to GitHub Pages
+#### Upload to GitHub Pages
 
 ```bash
 git init
