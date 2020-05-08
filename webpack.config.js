@@ -1,5 +1,4 @@
 const autoprefixer = require('autoprefixer');
-const NunjucksWebpackPlugin = require('nunjucks-webpack-plugin');
 
 module.exports = {
   mode: 'development',
@@ -47,15 +46,5 @@ module.exports = {
       }
     ],
   },
-  plugins: [
-    new NunjucksWebpackPlugin({
-      templates: [
-        {
-          from: "./index.nunj",
-          to: "index.html"
-        }
-      ]
-    }),
-  ]
 };
 

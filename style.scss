@@ -6,6 +6,7 @@
 //import scss_component
 @import 'scss-components/avatar.scss';
 @import 'scss-components/card.scss';
+@import 'scss-components/button.scss';
 @import 'scss-components/footer.scss';
 
 $font-stack: 'Roboto', sans-serif;
@@ -36,4 +37,8 @@ ul {
 a {
   text-decoration: none;
   color: $primary-color;
+}
+
+section {
+  margin: 40px;
 }
