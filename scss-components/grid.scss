@@ -1,0 +1,39 @@
+.grid {
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .col-lg-6 {
+    flex: 1 1 45%;
+    margin: 10px;
+
+    @media only screen and (max-width: #{$small}) {
+      flex: 1 1 100%;
+    }
+  }
+
+  .col-lg-4 {
+    flex: 1 1 30%;
+    margin: 10px;
+
+    @media only screen and (max-width: #{$small}) {
+      flex: 1 1 45%;
+    }
+
+    @media only screen and (max-width: #{$xsmall}) {
+      flex: 1 1 100%;
+    }
+  }
+
+  .bg-light {
+    font-size: 20px;
+    text-align: center;
+    padding: 50px;
+    background-color: #fcfcfc;
+    border: 1px solid #f2f2f2;
+    box-shadow: 0 0 10px rgba(167, 167, 167, 0.3);
+    border-radius: 4px;
+  }
+}

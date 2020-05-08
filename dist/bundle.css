@@ -54,6 +54,43 @@
   margin-top: 8px;
 }
 
+.grid .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.grid .col-lg-6 {
+  flex: 1 1 45%;
+  margin: 10px;
+}
+@media only screen and (max-width: 767px) {
+  .grid .col-lg-6 {
+    flex: 1 1 100%;
+  }
+}
+.grid .col-lg-4 {
+  flex: 1 1 30%;
+  margin: 10px;
+}
+@media only screen and (max-width: 767px) {
+  .grid .col-lg-4 {
+    flex: 1 1 45%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .grid .col-lg-4 {
+    flex: 1 1 100%;
+  }
+}
+.grid .bg-light {
+  font-size: 20px;
+  text-align: center;
+  padding: 50px;
+  background-color: #fcfcfc;
+  border: 1px solid #f2f2f2;
+  box-shadow: 0 0 10px rgba(167, 167, 167, 0.3);
+  border-radius: 4px;
+}
+
 .button {
   margin: 50px;
 }
