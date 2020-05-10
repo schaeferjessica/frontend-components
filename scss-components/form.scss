@@ -23,18 +23,24 @@
   form {
     display: flex;
     flex-direction: column;
-    min-width: 600px;
-    margin: 50px;
+    max-width: 600px;
+    width: 100%;
+    margin: 10px;
     padding: 50px;
     font-size: 16px;
     background-color: #fcfcfc;
     border: 1px solid #f2f2f2;
     box-shadow: 0 0 10px rgba(167, 167, 167, 0.3);
     border-radius: 4px;
+
+    @media only screen and (max-width: #{$small}) {
+       max-width: 100%;
+    }
   }
 }
 
 .submit-btn {
+  margin-top: 10px;
   align-self: center;
   background-color: white;
   color: black;
@@ -53,6 +59,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+
+  @media only screen and (max-width: #{$small}) {
+    display: block;
+  }
 }
 
 .form-group {
