@@ -18,6 +18,7 @@ $max-width: 1440px;
 @import 'scss-components/card.scss';
 @import 'scss-components/grid.scss';
 @import 'scss-components/button.scss';
+@import 'scss-components/form.scss';
 @import 'scss-components/footer.scss';
 
 html {
@@ -53,6 +54,6 @@ section {
 
 header {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
 }

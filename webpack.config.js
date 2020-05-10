@@ -1,5 +1,4 @@
 const autoprefixer = require('autoprefixer');
-
 module.exports = {
   mode: 'development',
   entry: ['./style.scss', './main.js'],
@@ -34,7 +33,7 @@ module.exports = {
                 includePaths: ['./node_modules'],
               },
             },
-          }
+          },
         ],
       },
       {
@@ -43,8 +42,7 @@ module.exports = {
         query: {
           presets: ['@babel/preset-env'],
         },
-      }
+      },
     ],
   },
 };
-
