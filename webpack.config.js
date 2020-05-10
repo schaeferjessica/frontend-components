@@ -1,9 +1,12 @@
+const path = require('path');
 const autoprefixer = require('autoprefixer');
+
 module.exports = {
   mode: 'development',
   entry: ['./style.scss', './main.js'],
   output: {
     filename: 'bundle.js',
+    path: path.join(process.cwd(), '/'),
   },
   module: {
     rules: [
